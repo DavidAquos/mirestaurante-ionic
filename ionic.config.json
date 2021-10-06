@@ -1,0 +1,7 @@
+{
+  "name": "mirestaurante-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
