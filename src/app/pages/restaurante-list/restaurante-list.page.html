@@ -20,8 +20,8 @@
         <ion-col size="3">
           <div *ngFor="let diaAux of [0,1,2,3,4,5,6]">
             <div *ngIf="diaActual === restaurante.horario[diaAux].dia">
-              <p>Apertura: {{restaurante.horario[diaAux].apertura}}</p>
-              <p>Cierre: {{restaurante.horario[diaAux].cierre}}</p>
+              <p>Apertura: {{restaurante.horario[diaAux].apertura}}:00</p>
+              <p>Cierre: {{restaurante.horario[diaAux].cierre}}:00</p>
             </div>
           </div>
         </ion-col>
